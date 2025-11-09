@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f9f6ef;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: #fffbe9;
+  box-shadow: 0 4px 20px #e0cb84;
+  padding: 2rem;
+  border-radius: 16px;
+  margin-top: 3rem;
+}
+
+header {
+  text-align: center;
+}
+
+.header-img {
+  width: 64px;
+  height: 64px;
+}
+
+.input-area label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+.input-area input, .input-area textarea {
+  width: 100%;
+  margin-top: 0.25rem;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #d6c786;
+  background: #f6f2d3;
+}
+
+.output-area {
+  margin-top: 2rem;
+}
+.cave-paragraph-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.caveman-paragraph {
+  background: #fff4c1;
+  padding: 0.75rem;
+  border-radius: 12px;
+  flex: 1;
+  font-size: 1.15rem;
+}
+
+.info-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffe97c;
+  color: #a2851f;
+  border: 1.5px solid #dcc658;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.2s;
+}
+.info-circle:hover {
+  background: #ffe04d;
+}
+
+.info-tooltip {
+  margin-top: 0.5rem;
+  background: #f2e6c4;
+  padding: 0.6rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  box-shadow: 0 2px 8px #ebdfb2;
+}
